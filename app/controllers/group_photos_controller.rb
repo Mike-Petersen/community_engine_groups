@@ -3,7 +3,7 @@ class GroupPhotosController < BaseController
   belongs_to :group
 
   def object_name
-    'photo'
+    'group_photo'
   end
   
   def model_name

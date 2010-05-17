@@ -1,4 +1,4 @@
-config.gem "justinfrench-formtastic", :lib => 'formtastic', :source => 'http://gems.github.com'
+config.gem "formtastic", :lib => 'formtastic', :source => 'http://gems.github.com'
 
 
 config.after_initialize do

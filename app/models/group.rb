@@ -18,7 +18,8 @@ class Group < ActiveRecord::Base
   
   #weird hacks because commentable_controller is pretty brittle and needs refactoring
   def user_id
-    owner.id
+    owner.id if not owner.nil?
+	 nil
   end
   def user
     owner

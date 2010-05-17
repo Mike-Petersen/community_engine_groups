@@ -6,6 +6,8 @@ end
 
 
 class GroupsControllerTest < ActionController::TestCase
+  include Authlogic::TestCase
+  setup :activate_authlogic
   
   fixtures :all
   

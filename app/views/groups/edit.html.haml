@@ -1,13 +1,17 @@
--box do
-  - semantic_form_for @group, :html => {:class => "MainForm", :multipart => true} do |form|
+.yui-b= render :partial => "groups/sidebar"
 
-    -form.inputs :name => :edit_group.l do  
-      =render :partial => 'groups/form', :locals => {:form => form}
+#yui-main
+  .yui-b
+    -box do
+      - semantic_form_for @group, :html => {:class => "MainForm", :multipart => true} do |form|
 
-    %p
-      = form.submit :update.l
+        -form.inputs :name => :edit_group.l do
+          =render :partial => 'groups/form', :locals => {:form => form}
+
+        %p
+          = form.submit :update.l
 
 
--box do
-  %h3=:destroy_group_header.l
-  =button_to :destroy_group_button.l, group_path(@group), :confirm => :destroy_group_confirmation.l, :method => :delete
+    -box do
+      %h3=:destroy_group_header.l
+      =button_to :destroy_group_button.l, group_path(@group), :confirm => :destroy_group_confirmation.l, :method => :delete
