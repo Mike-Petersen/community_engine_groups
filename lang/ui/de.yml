@@ -1,0 +1,35 @@
+en:
+
+  #group
+  administer_group: Gruppen verwalten
+  created_a_group: "hat eine Gruppe erstellt:"
+  edit_group: Gruppe bearbeiten
+  destroy_group_header: Gruppe löschen?
+  destroy_group_button: Hier klicken um die Gruppe endgültig zu löschen
+  destroy_group_confirmation: Bist du sicher das du diese Gruppe löschen möchtest? Es kann nicht Rückgängig gemacht werden.
+  group: Gruppe
+  groups: Gruppen
+  group_details: Gruppen Details
+  group_comments: Gruppen Kommentare
+  group_public_or_private: Diese Gruppe ist {{privacy}}
+  owner: Eigentümer
+  new_group: Neue Gruppe
+  public: Öffentlich
+  private: Privat
+  site_groups: "{{site}} Gruppen"
+
+
+  #group photos
+  group_photos: "{{name}}'s Photos"
+  new_group_photo: Neues Photo
+
+  #group members
+  deactivate: Deaktivieren
+  group_members: Gruppen Mitglieder
+  invite_members: Mitglieder einladen
+  join_group: Gruppe beitreten
+  leave_group: Gruppe verlassen
+  memberships: Mitgliedschaft
+  user_was_removed_by_group_owner: Du hast den User aus der Gruppe entfernt.
+  user_left_group: Du hast diese Gruppe verlassen.
+  user_joined_group: Du bist dieser Gruppe beigetreten.
